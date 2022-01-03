@@ -394,98 +394,55 @@
         </div>
 
     </section>
-
-
-{{--
-    <section id="pricing" class="pricing_area gray-bg pt-115 pb-120">
-        <div class="pricing_shape">
-            <img src="assets/images/shape-3.png" alt="shape">
-        </div>
+{{-- Modal --}}
+<!-- Full screen modal -->
+<div class="modal-dialog modal-fullscreen-sm-down">
+    <section style="background: rgb(255, 255, 255); width: 100%;">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center pb-30">
-                        <h5 class="sub_title">Pricing</h5>
-                        <h3 class="main_title">Pricing Plans</h3>
-                        <ul class="line">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
+            <div class="row">
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                    <form style="padding-top: 20%; padding-bottom:10%; ">
+                        <h1 class="h1-large" style="color: rgb(0, 0, 0); font-size: 40px; text-align: center;">
+                            Send
+                            us a message</h1>
+
+                        <div class="line-1"
+                            style="  height: 5px; background: rgb(255, 255, 255); margin-bottom: 20px;">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" name="name" placeholder="Name"
+                                style="font-family: 'maven pro'" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" name="Email" placeholder="Email"
+                                style="font-family: 'maven pro'" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control-input" name="phone" placeholder="Phone Number"
+                                style="font-family: 'maven pro'" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="textarea" class="form-control-input" name="message" placeholder="message"
+                                required style="height:187px; font-family: 'maven pro'">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="form-control-submit-button"
+                                style="background: #ff0030;  font-family: 'maven pro'; font-size: 30px;  border: solid 0px;">Send</button>
+                        </div>
+                    </form>
+
                 </div>
+
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single_price mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
-                        <div class="price_header">
-                            <h4 class="price_title">Basic</h4>
-                            <span class="price">$75</span>
-                            <p>Only PSD Service</p>
-                        </div>
-                        <div class="price_body">
-                            <ul>
-                                <li><i class="lni lni-checkmark"></i> Graphic Design</li>
-                                <li><i class="lni lni-checkmark"></i> Web Design</li>
-                                <li><i class="lni lni-close"></i> UI/UX</li>
-                                <li><i class="lni lni-close"></i> HTML/CSS</li>
-                                <li><i class="lni lni-close"></i> SEO Marketing</li>
-                                <li><i class="lni lni-close"></i> Business Analysis</li>
-                            </ul>
-                        </div>
-                        <div class="price_btn">
-                            <a href="#" class="main-btn main-btn-2">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single_price mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                        <span class="sticker">Best Value</span>
-                        <div class="price_header">
-                            <h4 class="price_title">Standard</h4>
-                            <span class="price">$250</span>
-                            <p>Complete Service</p>
-                        </div>
-                        <div class="price_body">
-                            <ul>
-                                <li><i class="lni lni-checkmark"></i> Graphic Design</li>
-                                <li><i class="lni lni-checkmark"></i> Web Design</li>
-                                <li><i class="lni lni-checkmark"></i> UI/UX</li>
-                                <li><i class="lni lni-checkmark"></i> HTML/CSS</li>
-                                <li><i class="lni lni-close"></i> SEO Marketing</li>
-                                <li><i class="lni lni-close"></i> Business Analysis</li>
-                            </ul>
-                        </div>
-                        <div class="price_btn">
-                            <a href="#" class="main-btn">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single_price mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                        <div class="price_header">
-                            <h4 class="price_title">Premium</h4>
-                            <span class="price">$350</span>
-                            <p>Complete Service</p>
-                        </div>
-                        <div class="price_body">
-                            <ul>
-                                <li><i class="lni lni-checkmark"></i> Graphic Design</li>
-                                <li><i class="lni lni-checkmark"></i> Web Design</li>
-                                <li><i class="lni lni-checkmark"></i> UI/UX</li>
-                                <li><i class="lni lni-checkmark"></i> HTML/CSS</li>
-                                <li><i class="lni lni-checkmark"></i> SEO Marketing</li>
-                                <li><i class="lni lni-checkmark"></i> Business Analysis</li>
-                            </ul>
-                        </div>
-                        <div class="price_btn">
-                            <a href="#" class="main-btn main-btn-2">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
-    </section> --}}
+
+    </section>
+  </div>
+  {{-- modal --}}
+
+
+
 
 
     <section id="testimonial" class="testimonial_area pt-115 pb-120">
