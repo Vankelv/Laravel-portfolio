@@ -1983,3 +1983,22 @@ p {
         font-size: 15px
     }
 }
+
+element.style {
+    font-family: 'maven pro';
+}
+.form-control-input, .form-control-textarea {
+    border-radius: 20px !important;
+}
+.form-control-input, .form-control-textarea {
+    width: 100%;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    padding-left: 1.5rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    -webkit-appearance: none;
+}

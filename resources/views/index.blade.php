@@ -78,9 +78,6 @@
                                         <a class="page-scroll" href="#project">Portfolio<span></span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#pricing">Pricing<span></span></a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="page-scroll" href="#work">Experience<span></span></a>
                                     </li>
                                 </ul>
@@ -394,53 +391,110 @@
         </div>
 
     </section>
-{{-- Modal --}}
-<!-- Full screen modal -->
-<div class="modal-dialog modal-fullscreen-sm-down">
-    <section style="background: rgb(255, 255, 255); width: 100%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-                    <form style="padding-top: 20%; padding-bottom:10%; ">
-                        <h1 class="h1-large" style="color: rgb(0, 0, 0); font-size: 40px; text-align: center;">
-                            Send
-                            us a message</h1>
+<!-- Modal -->
+<div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+      <div class="modal-content-full-width modal-content ">
+        <div class=" modal-header-full-width   modal-header text-center">
+            <div class="header_navbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="assets/images/tab-logo.png" alt="Logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul id="nav" class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="page-scroll" href="#home">Home <span></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#about">About<span></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#services">Services<span></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#project">Portfolio<span></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#pricing">Pricing<span></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#work">Experience<span></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-body">
+            <section style="background: rgb(255, 255, 255); width: 100%;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img src="{{ url('assets/images/Contact us-bro.png') }}" alt="Contact"
+                                style="height: 582px; margin-left: -48px; margin-bottom: -10% !important;">
 
-                        <div class="line-1"
-                            style="  height: 5px; background: rgb(255, 255, 255); margin-bottom: 20px;">
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" name="name" placeholder="Name"
-                                style="font-family: 'maven pro'" required>
+                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                            <form style="padding-top: 20%; padding-bottom:10%; ">
+                                <h1 class="h1-large" style="color: rgb(0, 0, 0); font-size: 40px; text-align: center;">
+                                    Send
+                                    us a message</h1>
+
+                                <div class="line-1"
+                                    style="  height: 5px; background: rgb(255, 255, 255); margin-bottom: 20px;">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control-input" name="name" placeholder="Name"
+                                        style="font-family: 'maven pro'" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control-input" name="Email" placeholder="Email"
+                                        style="font-family: 'maven pro'" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control-input" name="phone" placeholder="Phone Number"
+                                        style="font-family: 'maven pro'" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="textarea" class="form-control-input" name="message" placeholder="message"
+                                        required style="height:187px; font-family: 'maven pro'">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="submit" class="form-control-submit-button"
+                                        style="background: #ff0030;  font-family: 'maven pro'; font-size: 30px;  border: solid 0px; border-radius: 20px; width: 538px;">Send</button>
+                                </div>
+                            </form>
+
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" name="Email" placeholder="Email"
-                                style="font-family: 'maven pro'" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-control-input" name="phone" placeholder="Phone Number"
-                                style="font-family: 'maven pro'" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="textarea" class="form-control-input" name="message" placeholder="message"
-                                required style="height:187px; font-family: 'maven pro'">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" name="submit" class="form-control-submit-button"
-                                style="background: #ff0030;  font-family: 'maven pro'; font-size: 30px;  border: solid 0px;">Send</button>
-                        </div>
-                    </form>
+
+                    </div>
 
                 </div>
 
-            </div>
-
+            </section>
         </div>
-
-    </section>
+        <div class="modal-footer-full-width  modal-footer">
+          <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-md btn-rounded">Save changes</button>
+        </div>
+      </div>
+    </div>
   </div>
-  {{-- modal --}}
-
+{{-- modal --}}
 
 
 
@@ -467,10 +521,9 @@
                             <img src="assets/images/author-1.jpg" alt="author">
                         </div>
                         <div class="testimonial_content media-body">
-                            <h4 class="author_name">Rob Hope</h4>
-                            <span class="sub_title">CEO, OnePageLove</span>
-                            <p>Lorem ipsum dolor sit amet, consetetuad ipscing elitr, sed diam nonumy eirmodem por
-                                invidunt ut labore et dolore magna aliquyam erat sed diam.</p>
+                            <h4 class="author_name"></h4>
+                            <span class="sub_title">CEO, Tykente Tour</span>
+                            <p>"Van Kelvin has been my go-to for website developer since I began my company. He is always professional, always exceeded my expectations, and always delivered on time. Working with him feels like I am partnering with a friend."</p>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -489,8 +542,7 @@
                         <div class="testimonial_content media-body">
                             <h4 class="author_name">Elon Musk</h4>
                             <span class="sub_title">Founder, Tesla</span>
-                            <p>Lorem ipsum dolor sit amet, consetetuad ipscing elitr, sed diam nonumy eirmodem por
-                                invidunt ut labore et dolore magna aliquyam erat sed diam.</p>
+                            <p>"I was looking for a great, fast, and reliable graphic designer I could hire on the spot. After getting access to this website, I found Van Kelvin. He is          prompt, efficient, and provide excellent work.""</p>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -667,20 +719,27 @@
                         <div class="single_experience d-lg-flex align-items-center flex-wrap wow fadeIn"
                             data-wow-duration="1.3s" data-wow-delay="0.5s">
                             <div class="experience_title text-lg-right">
-                                <h3 class="title"></h3>Graphic Designer</h3>
-                                <p></p>
-                                <span class="date">March 2019- August 2019</span>
+                                <h3 class="title">Web developer</h3>
+                                <p>Freelancer</p>
+                                <span class="date">March 2017-Date</span>
                             </div>
                             <div class="experience_number">
                                 <span>02</span>
                             </div>
                             <div class="experience_content">
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sedia magnaliquya ratsed diam
-                                    Lorem ipsum dolor sit amconsetetur sadipscing elitr sed diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam erat sed diam.Lorem ipsum dolor sit
-                                    ametconsete tur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et
-                                    dolore magna aliquyam erat sed diamLorem ipsum dolor consetetur sadipscing elitr sed
-                                    diam nonumy diam... </p>
+                                <p>Using optimal software development principles, write well-designed, tested, and efficient code.
+                                    Using conventional HTML/CSS principles, create a website layout and user interface.
+                                    Data from several back-end services and databases should be combined.
+
+                                    Gather and improve requirements and specifications based on technical requirements.
+
+                                    Make and keep software documentation.
+
+                                    Be in charge of our site's upkeep, expansion, and scaling.
+
+                                    Keep up with emerging technologies and industry trends and incorporate them into your operations and activities.
+
+                                    Work with web designers to ensure that the visual design purpose is met.</p>
                             </div>
                         </div>
                     </div>
@@ -690,20 +749,21 @@
                         <div class="single_experience d-lg-flex align-items-center flex-wrap wow fadeIn"
                             data-wow-duration="1.3s" data-wow-delay="0.8s">
                             <div class="experience_title order-last">
-                                <h3 class="title">Web Developer</h3>
-                                <p>GrayGrids</p>
-                                <span class="date">June 2018- August 2019</span>
+                                <h3 class="title">UX/UI DESIGNER</h3>
+                                <p>Freelancer</p>
+                                <span class="date">JAN 2020- Date</span>
                             </div>
                             <div class="experience_number">
                                 <span>03</span>
                             </div>
                             <div class="experience_content order-first">
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sedia magnaliquya ratsed diam
-                                    Lorem ipsum dolor sit amconsetetur sadipscing elitr sed diam nonumy eirmod tempor
-                                    invidunt ut labore et dolore magna aliquyam erat sed diam.Lorem ipsum dolor sit
-                                    ametconsete tur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et
-                                    dolore magna aliquyam erat sed diamLorem ipsum dolor consetetur sadipscing elitr sed
-                                    diam nonumy diam... </p>
+                                <p>Investigating the user experience design requirements for our digital asset suite.
+                                    Creating and conceptualizing an all-encompassing UI/UX design strategy for the brand.
+                                    Wireframes, visual and graphic designs, flow diagrams, storyboards, site maps, and prototypes are used to create high-quality UX design solutions.
+                                    Creating UI elements and tools for our digital assets such as navigation menus, search boxes, tabs, and widgets.
+                                    CTAs, banners, page layouts, page designs, page flows, and target links for landing pages are all being tested.
+                                    Collaborating with the marketing team, as well as internal and external designers, to ensure the creation and delivery of tailored digital user experiences.
+                                    Giving advice and direction on the implementation of UX research methodologies and testing activities to analyze and predict user behavior</p>
                             </div>
                         </div>
                     </div>
@@ -712,7 +772,7 @@
         </div>
     </section>
 
-
+{{--
     <section id="contact" class="call_to_action_area">
         <div class="container">
             <div class="call_to_action_wrapper wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.5s">
@@ -737,6 +797,35 @@
                 </div>
             </div>
         </div>
+    </section> --}}
+
+
+    <section id="contact" class="call_to_action_area">
+        <div class="container">
+            <div class="call_to_action_wrapper wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="call_to_action_box d-md-flex justify-content-between align-items-center">
+                            <div class="call_to_action_content">
+                                <h3 class="action_title">Have Any Project in Mind?</h3>
+                                <ul class="line">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <p>I am the decisive factor behind your brand success</p>
+                            </div>
+                            <div class="call_to_action_btn">
+
+      <button id="modalActivate" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalPreview">
+        Hire Me
+      </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -745,7 +834,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer_content text-center">
-                        <a href="#"><img src="assets/images/logo.svg" alt="Logo"></a>
+                        <a href="#"><img src="assets/images/tab-logo.png" alt="Logo"></a>
                         <ul class="footer_social">
                             <li><a href="#"><i class="lni lni-facebook"></i></a></li>
                             <li><a href="#"><i class="lni lni-twitter"></i></a></li>
@@ -768,14 +857,12 @@
                             <li >
                                 <a class="page-scroll" href="#project">Portfolio<span></span></a>
                             </li>
-                            <li >
-                                <a class="page-scroll" href="#pricing">Pricing<span></span></a>
-                            </li>
+
                             <li >
                                 <a class="page-scroll" href="#work">Experience<span></span></a>
                             </li>
                         </ul>
-                        <p class="credit pt-45">powered by <a href="www.nextlinegh.com">Nextline Gh</a></p>
+                        <p class="credit pt-45">powered by <a href="https://www.nextlinegh.com">Nextline Gh</a></p>
                     </div>
                 </div>
             </div>
