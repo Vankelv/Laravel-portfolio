@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-
+Route::get('/sendemail', 'App\Http\Controllers\SendEmailController@index');
+Route::post('/sendemail/send', 'App\Http\Controllers\SendEmailController@send');

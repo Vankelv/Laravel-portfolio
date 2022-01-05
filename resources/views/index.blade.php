@@ -102,11 +102,11 @@
                                 Hello I'm</h5>
                             <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Van
                                 Kelvin</h2>
-                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Professional
+                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">A Professional
                                 Freelance Web Designer</span>
                             <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">I am a web designer ,
-                                ux/ui designer, a professional graphic designer and social media manager with a strong
-                                background in i.t</p>
+                                ux/ui designer, a professional graphic designer a with a strong
+                                background in I.T support</p>
                             <a href="#contact" class="main-btn wow fadeInUp" data-wow-duration="1.3s"
                                 data-wow-delay="1.4s">Hire Me</a>
                         </div>
@@ -129,7 +129,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <div class="about_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                        <img src="assets/images/about_hero2.png" alt="Hero">
+                        <img src="assets/images/about.png" alt="Hero">
                         <div class="about_shape"></div>
                     </div>
                 </div>
@@ -152,6 +152,19 @@
                             operate even better. Alongside my clients, I find problems and solve them. To put it another
                             way, I build more daring online experiences.</p>
                         <div class="about_skills pt-15">
+                            <div class="skill_item mt-20">
+                                <div class="skill_header">
+                                    <h6 class="skill_title">I.T support and Networking</h6>
+                                    <div class="skill_percentage">
+                                        <p><span class="counter">75</span>%</p>
+                                    </div>
+                                </div>
+                                <div class="skill_bar">
+                                    <div class="bar_inner">
+                                        <div class="bar progress_line" data-width="75"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="skill_item mt-20">
                                 <div class="skill_header">
                                     <h6 class="skill_title">UI/UX Design</h6>
@@ -180,7 +193,7 @@
                             </div>
                             <div class="skill_item mt-20">
                                 <div class="skill_header">
-                                    <h6 class="skill_title">HTML/CSS</h6>
+                                    <h6 class="skill_title">Brand Identity Design</h6>
                                     <div class="skill_percentage">
                                         <p><span class="counter">90</span>%</p>
                                     </div>
@@ -391,78 +404,60 @@
         </div>
 
     </section>
+
 <!-- Modal -->
 <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
     <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
       <div class="modal-content-full-width modal-content ">
         <div class=" modal-header-full-width   modal-header text-center">
-            <div class="header_navbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <nav class="navbar navbar-expand-lg">
-                                <a class="navbar-brand" href="index.html">
-                                    <img src="assets/images/tab-logo.png" alt="Logo">
-                                </a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="toggler-icon"></span>
-                                    <span class="toggler-icon"></span>
-                                    <span class="toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                    <ul id="nav" class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                            <a class="page-scroll" href="#home">Home <span></span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="page-scroll" href="#about">About<span></span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="page-scroll" href="#services">Services<span></span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="page-scroll" href="#project">Portfolio<span></span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="page-scroll" href="#pricing">Pricing<span></span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="page-scroll" href="#work">Experience<span></span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="modal-title w-100" id="exampleModalPreviewLabel">Lets Work Together</h2>
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                    <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
+                </button>
+
         </div>
         <div class="modal-body">
+
             <section style="background: rgb(255, 255, 255); width: 100%;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-5">
-                            <img src="{{ url('assets/images/Contact us-bro.png') }}" alt="Contact"
-                                style="height: 582px; margin-left: -48px; margin-bottom: -10% !important;">
+                         <div class="col-sm-6">
+                            <img src="{{ url('assets/images/contact-bro.png') }}" class="contactbro" alt="Contact"
+                                style="height: 582px; margin-left: -48px; margin-bottom: -10%">
 
                         </div>
-                        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
-                            <form style="padding-top: 20%; padding-bottom:10%; ">
+                        <div class="col-sm-5">
+                            @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                             <button type="button" class="close" data-dismiss="alert">×</button>
+                             <ul>
+                              @foreach ($errors->all() as $error)
+                               <li>{{ $error }}</li>
+                              @endforeach
+                             </ul>
+                            </div>
+                           @endif
+                           @if ($message = Session::get('success'))
+                           <div class="alert alert-success alert-block">
+                            <button type="button" class="close" data-dismiss="alert">×</button>
+                                   <strong>{{ $message }}</strong>
+                           </div>
+                           @endif
+                            <form method="POST" action="{{ url('sendemail/send') }}" style="padding-top: 20%; padding-bottom:10%; ">
                                 <h1 class="h1-large" style="color: rgb(0, 0, 0); font-size: 40px; text-align: center;">
-                                    Send
-                                    us a message</h1>
+                                    Hire me</h1>
+
 
                                 <div class="line-1"
                                     style="  height: 5px; background: rgb(255, 255, 255); margin-bottom: 20px;">
                                 </div>
+                                @csrf
                                 <div class="form-group">
                                     <input type="text" class="form-control-input" name="name" placeholder="Name"
                                         style="font-family: 'maven pro'" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control-input" name="Email" placeholder="Email"
+                                    <input type="email" class="form-control-input" name="email" placeholder="Email"
                                         style="font-family: 'maven pro'" required>
                                 </div>
                                 <div class="form-group">
@@ -470,26 +465,31 @@
                                         style="font-family: 'maven pro'" required>
                                 </div>
                                 <div class="form-group">
+                                    <select class="form-control-input" name="service" aria-label="Default select example">
+                                        <option selected>Please select the service you want </option>
+                                        <option value="Web">Web development</option>
+                                        <option value="Brand Identity">Brand Identity Design</option>
+                                        <option value="IT Support">IT Support service</option>
+                                      </select>
+                                </div>
+                                <div class="form-group">
                                     <input type="textarea" class="form-control-input" name="message" placeholder="message"
                                         required style="height:187px; font-family: 'maven pro'">
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" name="submit" class="form-control-submit-button"
-                                        style="background: #ff0030;  font-family: 'maven pro'; font-size: 30px;  border: solid 0px; border-radius: 20px; width: 538px;">Send</button>
+                                        style="background: #ff0030;  font-family: 'maven pro'; font-size: 30px;  border: solid 0px; border-radius: 20px; width: 439px;">Send</button>
                                 </div>
                             </form>
-
+                            {{-- <button type="button" class="btn btn-primary btn-md btn-rounded" data-dismiss="modal">Close</button> --}}
                         </div>
+
 
                     </div>
 
                 </div>
 
             </section>
-        </div>
-        <div class="modal-footer-full-width  modal-footer">
-          <button type="button" class="btn btn-danger btn-md btn-rounded" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary btn-md btn-rounded">Save changes</button>
         </div>
       </div>
     </div>
@@ -518,10 +518,10 @@
                 <div class="col-lg-6">
                     <div class="single_testimonial d-sm-flex mt-30">
                         <div class="testimonial_author">
-                            <img src="assets/images/author-1.jpg" alt="author">
+                            <img src="assets/images/thompson.jpg" alt="Thompson Yao Avornyo">
                         </div>
                         <div class="testimonial_content media-body">
-                            <h4 class="author_name"></h4>
+                            <h4 class="author_name">Thompson Yao</h4>
                             <span class="sub_title">CEO, Tykente Tour</span>
                             <p>"Van Kelvin has been my go-to for website developer since I began my company. He is always professional, always exceeded my expectations, and always delivered on time. Working with him feels like I am partnering with a friend."</p>
                             <ul class="review">
@@ -537,12 +537,31 @@
                 <div class="col-lg-6">
                     <div class="single_testimonial d-sm-flex mt-30">
                         <div class="testimonial_author">
-                            <img src="assets/images/author-2.jpg" alt="author">
+                            <img src="assets/images/debs.jpg" alt="author">
                         </div>
                         <div class="testimonial_content media-body">
-                            <h4 class="author_name">Elon Musk</h4>
-                            <span class="sub_title">Founder, Tesla</span>
+                            <h4 class="author_name">Debby</h4>
+                            <span class="sub_title">Debs Cake</span>
                             <p>"I was looking for a great, fast, and reliable graphic designer I could hire on the spot. After getting access to this website, I found Van Kelvin. He is          prompt, efficient, and provide excellent work.""</p>
+                            <ul class="review">
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star-filled"></i></li>
+                                <li><i class="lni lni-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single_testimonial d-sm-flex mt-30">
+                        <div class="testimonial_author">
+                            <img src="assets/images/kekeli.jpg" alt="kekeli">
+                        </div>
+                        <div class="testimonial_content media-body">
+                            <h4 class="author_name">Kekeli</h4>
+                            <span class="sub_title">Ceo Nuseli Shop</span>
+                            <p>"I work in a retail shop and I found Van kelvin to be a great helper. Van is very professional and know what he's doing. I had purchased a new laptop and wanted to get all the updates done on it. Van kelvin did this for me and he did it quickly. He also got rid of viruses that had been plaguing my computer.</p>
                             <ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
                                 <li><i class="lni lni-star-filled"></i></li>
@@ -559,11 +578,9 @@
                             <img src="assets/images/author-1.jpg" alt="author">
                         </div>
                         <div class="testimonial_content media-body">
-                            <h4 class="author_name">Musharof Chowdhury</h4>
-                            <span class="sub_title">Head of Ideas, UIdeck</span>
-                            <p>Lorem ipsum dolor sit amet, consetetuad ipscing elitr, sed diam nonumy eirmodem por
-                                invidunt ut labore et dolore magna aliquyam erat sed diam.</p>
-                            <ul class="review">
+                            <h4 class="author_name">Dziedzom</h4>
+                            <span class="sub_title">Ceo New Africa</span>
+                            <p>"Van kelvin is the best IT support specialist I've ever had! He fixed my computer before it crashed and got rid of all my malware. Van kelvin is always available when I need help with my devices."<ul class="review">
                                 <li><i class="lni lni-star-filled"></i></li>
                                 <li><i class="lni lni-star-filled"></i></li>
                                 <li><i class="lni lni-star-filled"></i></li>
