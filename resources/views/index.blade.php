@@ -80,6 +80,9 @@
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#work">Experience<span></span></a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact me</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -89,10 +92,9 @@
         </div>
         <div id="home" class="header_hero">
             <ul class="header_social d-none d-lg-block">
-                <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-                <li><a href="#"><i class="lni lni-instagram-filled"></i></a></li>
-                <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                <li><a href="https://www.facebook.com/vankelvin54"><i class="lni lni-facebook-filled"></i></a></li>
+                <li><a href="https://www.instagram.com/efo_vankelvin"><i class="lni lni-instagram-filled"></i></a></li>
+                <li><a href="https://gh.linkedin.com/in/van-kelvin-13a573131"><i class="lni lni-linkedin-original"></i></a></li>
             </ul>
             <div class="container">
                 <div class="row align-items-center justify-content-center justify-content-lg-between">
@@ -853,10 +855,9 @@
                     <div class="footer_content text-center">
                         <a href="#"><img src="assets/images/tab-logo.png" alt="Logo"></a>
                         <ul class="footer_social">
-                            <li><a href="#"><i class="lni lni-facebook"></i></a></li>
-                            <li><a href="#"><i class="lni lni-twitter"></i></a></li>
-                            <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                            <li><a href="#"><i class="lni lni-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/vankelvin54" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
+                            <li><a href="https://www.instagram.com/efo_vankelvin" target="_blank"><i class="lni lni-instagram-filled"></i></a></li>
+                            <li><a href="https://gh.linkedin.com/in/van-kelvin-13a573131" target="_blank"><i class="lni lni-linkedin-original"></i></a></li>
                         </ul>
                         <span class="email"><a href="mailto:Vankelvin603@gmail.com" class="__cf_email__"
                                 data-cfemail="f784989a92989992b7928f969a879b92d994989a">Vankelvin603@gmail.com</a></span>
@@ -878,8 +879,11 @@
                             <li >
                                 <a class="page-scroll" href="#work">Experience<span></span></a>
                             </li>
+                            <li>
+                                <a class="page-scroll" href="#contact">Contact me</a>
+                            </li>
                         </ul>
-                        <p class="credit pt-45">powered by <a href="https://www.nextlinegh.com">Nextline Gh</a></p>
+                        <p class="credit pt-45">powered by <a href="https://www.nextlinegh.com" target="_blank">Nextline Gh</a></p>
                     </div>
                 </div>
             </div>
