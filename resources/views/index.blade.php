@@ -791,32 +791,6 @@
         </div>
     </section>
 
-{{--
-    <section id="contact" class="call_to_action_area">
-        <div class="container">
-            <div class="call_to_action_wrapper wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="call_to_action_box d-md-flex justify-content-between align-items-center">
-                            <div class="call_to_action_content">
-                                <h3 class="action_title">Have Any Project in Mind?</h3>
-                                <ul class="line">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam non eirmod tempor
-                                    invidunt labore.</p>
-                            </div>
-                            <div class="call_to_action_btn">
-                                <a href="mailto:Vankelvin603@gmail.com" class="main-btn">HIRE ME</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 
 
     <section id="contact" class="call_to_action_area">
@@ -839,6 +813,10 @@
       <button id="modalActivate" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalPreview">
         Hire Me
       </button>
+
+      <a href="/dowload" class="btn btn-danger">  Download my Cv</a>
+
+
                             </div>
                         </div>
                     </div>
