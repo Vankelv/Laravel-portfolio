@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\MailController;
+use Facade\FlareClient\Http\Response;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,11 @@ Route::get('/', function () {
 
 Route::get('/sendemail', 'App\Http\Controllers\SendEmailController@index');
 Route::post('/sendemail/send', 'App\Http\Controllers\SendEmailController@send');
+Route::get('/download', function(){
+    $file= public_path()."/KelvinSamuelKlutseCv.pdf";
+    $headers = array(
+       'Content-Type: Cv/pdf',
+    );
+
+    return Response()->download($file, "KelvinSamuelKlutseCv.pdf", $headers);
+});

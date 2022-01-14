@@ -814,7 +814,7 @@
         Hire Me
       </button>
 
-      <a href="/dowload" class="btn btn-danger">  Download my Cv</a>
+      <a href="/download" class="btn btn-danger">  Download my Cv</a>
 
 
                             </div>
